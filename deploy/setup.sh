@@ -6,6 +6,7 @@ PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 echo "Installing dependencies..."
 apt-get update
 apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git
+apt-get install django
 
 # Create project directory
 mkdir -p $PROJECT_BASE_PATH
